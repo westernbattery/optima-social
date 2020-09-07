@@ -78,9 +78,9 @@ export default function Wall(props) {
     e && e.preventDefault();
     let tempPosts = posts;
     tempPosts = tempPosts.filter((post) => {
-      const isValid = post.name.indexOf(searchString) != -1 || 
-      post.email.indexOf(searchString) != -1 || 
-      post.text.indexOf(searchString) != -1
+      const isValid = post.name.indexOf(searchString) !== -1 || 
+      post.email.indexOf(searchString) !== -1 || 
+      post.text.indexOf(searchString) !== -1
       return isValid
     });
     if(tempPosts.length > 0) {

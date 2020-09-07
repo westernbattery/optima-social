@@ -1,3 +1,10 @@
+## Getting Started
+
+Run the following two commands to get the application up and running. 
+
+1. `npm i`
+2. `npm start`
+
 ## Optima Social Features
 
 ### Login
